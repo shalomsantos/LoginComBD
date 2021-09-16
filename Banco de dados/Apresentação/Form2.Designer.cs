@@ -50,7 +50,7 @@ namespace Banco_de_dados
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(274, 59);
+            this.label1.Location = new System.Drawing.Point(276, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 36);
             this.label1.TabIndex = 1;
@@ -60,6 +60,7 @@ namespace Banco_de_dados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(768, 401);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
